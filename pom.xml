@@ -19,6 +19,16 @@
       <artifactId>jakarta.servlet-api</artifactId>
       <version>6.1.0</version>
     </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.13.3</version>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.json</groupId>
+      <artifactId>jakarta.json-api</artifactId>
+      <version>2.1.1</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>OOPLab6</finalName>

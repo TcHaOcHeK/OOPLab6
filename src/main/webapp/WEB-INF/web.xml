@@ -5,12 +5,12 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-    <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>servlets.adeptiveTest.GenereteQuestionsServlet</servlet-class>
+    <servlet-name>VolumeServlet</servlet-name>
+    <servlet-class>servlets.mathVolume.CalculateVolumeServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/hello</url-pattern>
+    <servlet-name>VolumeServlet</servlet-name>
+    <url-pattern>/volume</url-pattern>
   </servlet-mapping>
 </web-app>
 

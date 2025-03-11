@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <title>Testing servlet</title>
     <script src="javaScript/indexJS.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-<p id="result">_________</p>
-<button onclick="getResp()">Get response</button>
+<div class="container">
+    <label for="figure"></label><input list="figures" name="figure" id="figure">
+    <datalist id="figures">
+        <option value="параллелепипед"></option>
+        <option value="куб"></option>
+        <option value="сфера"></option>
+        <option value="тетраэдр"></option>
+        <option value="тор"></option>
+        <option value="шар"></option>
+        <option value="эллипсоид"></option>
+    </datalist>
+    <h1> Введите длину гранеей через запятую</h1>
+    <label for="edge"></label><input id="edge">
+    <label for="accuracy"></label><input list="accuraces" name="figure" id="accuracy">
+    <datalist id="accuraces">
+        <option value="0.1">
+        <option value="0.01">
+        <option value="0.001">
+        <option value="0.0001">
+        <option value="0.00001">
+    </datalist>
+</div>
+<div class="container">
+    <button onclick="getVolume()">Starting test</button>
+</div>
 </body>
 </html>
